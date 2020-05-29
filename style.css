@@ -1,0 +1,145 @@
+
+  color: grey;
+  margin: 0px;
+}
+section{
+  border: 2px dashed rgba(26, 174, 159, 0.2);
+  min-height: 20vh;
+  padding: 50px 0px;
+}
+.container { 
+  margin: 0px 7%;
+  height: auto;
+  min-height: 100%;
+}
+.l-spaced{ /* */
+  justify-content: space-between;
+}
+.l-start{ /* */
+  justify-content: flex-start;
+}
+.l-end{ /* */
+  justify-content: flex-end;
+}
+.l-center{
+  justify-content: center;
+}
+
+.h-center{
+  align-items: center;
+}
+.h-start{
+  align-items: flex-start;
+}
+.h-end{
+  align-items: flex-end;
+}
+.card-container{
+  width: 100%;
+  border: 1px solid ;
+}
+
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff8e;
+  
+  
+ 
+}
+.child{
+  
+  width: 50%;
+  margin: auto;
+  font-weight: 600
+  
+}
+
+.child-small{
+  border: 2px dashed rgb(101, 88, 245);
+  min-height: 20px;
+  min-width: 20px;
+}
+.child-bi{
+  border: 2px dashed rgb(101, 88, 245);
+  height: 50%;
+  min-height: 200px;
+  min-width: 250px;
+  width: 40%;
+}
+
+.skill-container{
+  width: 55%;
+}
+.progress-container{
+  margin: 12px 0px;
+  background-color: #E6E6E6;
+  height: 30px;
+  width: 100%;
+  border-radius: 8px;
+}
+.progress{
+  height:30px;
+  background-color: #536A6A;
+  width: 50%;
+  border-radius: 8px;
+}
+
+#hero{
+  height: 65vh;
+  background-image:url("https://wallpaperaccess.com/full/1271557.jpg")
+}
+.navbar{
+  margin: 0px 7%;
+}
+.full-width{
+  width: 100%;
+}
+.card-container{
+  height: 300px;
+  width: 100%;
+}
+
+.half-width{
+  width: 45%;
+  height: 500px;
+  border: 1px solid ;
+}
+
+.real1,.real2,.real3{
+  width:20%;
+  text-align: center;
+}
+
+.Texteprojet{
+  display:flex;
+  justify-content:space-evenly
+}
+
+
+.imageprojet{
+  display:flex;
+  justify-content:space-evenly;
+  padding-top:20px;
+}
+
+.imageprojet img{
+  width: 150px;
+     
+}
+
+
+#atol{
+  margin-left: 35px;
+    margin-right: 35px;
+}
+
+
+.formation ul, .experiences ul, .experiences p{
+  font-size: 20px
+}
+
+
+.childbig{
+  border:red
+}
